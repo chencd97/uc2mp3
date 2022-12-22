@@ -1,4 +1,4 @@
-package com.c223i.uc2mp3;
+package com.chencd97.uc2mp3;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -13,8 +13,8 @@ import java.util.Scanner;
  * 网易云音乐缓存解码器(uc2mp3)
  *
  * @version 1.0.1
- * @author c223i
- * @url https://github.com/c223i/uc2mp3
+ * @author chencd97
+ * @url https://github.com/chencd97/uc2mp3
  *
  */
 public class uc2mp3 {
@@ -27,10 +27,10 @@ public class uc2mp3 {
 	public static void main(String[] args) throws InterruptedException {
 
 		Scanner scan = new Scanner(System.in);
-		System.out.println("网易云音乐缓存解码器(uc2mp3)v1.0.1 By_c223i");
+		System.out.println("网易云音乐缓存解码器(uc2mp3)v1.0.1 By_chencd97");
 		System.out.println("欢迎使用,本工具可以将网易云音乐的缓存文件(.uc)格式解码成(.mp3)格式");
-		System.out.println("免责声明：本工具仅供代码的测试，学习和交流，严禁用于商业用途，如产生法律纠纷与本人无关");
-		System.out.println("项目地址：https://github.com/c223i/uc2mp3 \n");
+		System.out.println("免责声明: 本工具仅供代码的测试，学习和交流，严禁用于商业用途，如产生法律纠纷与本人无关");
+		System.out.println("项目地址: https://github.com/chencd97/uc2mp3 \n");
 		System.out.println("请输入要解码的文件路径【文件路径的开头和结尾不能包含引号】");
 		System.out.println("[Win10用户可直接将要解码的文件拖放至此窗口]");
 		int time = 1;
